@@ -1,0 +1,16 @@
+body {
+    background-image: url("../images/cool-backgrounds-8.jpg")
+}
+
+#gameIstructions {
+    color: white;
+    background-color: red;
+}
+
+p { 
+    color: red; 
+}
+
+h1 { 
+    color: red; 
+}
