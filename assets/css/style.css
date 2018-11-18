@@ -1,16 +1,10 @@
-body {
-    background-image: url("../images/cool-backgrounds-8.jpg")
+.buttonImages { 
+    margin-left: 435px; 
+    padding-top: 50px; 
 }
 
-#gameIstructions {
-    color: white;
-    background-color: red;
+.totals { 
+    text-align: center;
+    padding-top: 60px; 
 }
 
-p { 
-    color: red; 
-}
-
-h1 { 
-    color: red; 
-}

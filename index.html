@@ -5,45 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Crystals Collector</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
-    crossorigin="anonymous"></script>
+    <title>Button Masher!</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 
-        <div class="jumbotron jumbotron-fluid">
-                <div class="container">
-                  <h1 class="display-4">Crystal Collector!</h1>
-                  <p class="lead">
-                      We give you a number, you pick a icon until you reach that number. You can't go over the number. 
-                  </p>
-                </div>
-              </div>
-        <div class="crystalImages">
-            <img id="redCrystal" src="assets/images/circle.png">
-            <img id="blueCrystal" src="assets/images/xbutton.png">
-            <img id="colorfulCrystal" src="assets/images/square.png">
-            <img id="greenCrystal" src="assets/images/triangle.png">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Button Masher!</h1>
+            <p class="lead">
+                We give you a number, you pick an icon until you reach that number. Don't go over the number!
+            </p>
         </div>
-        <div id=#winsLoses>
-        <p>
-            Wins: <span id = "wins">0</span>
-            <br>
-            Losses: <span id = "losses">0</span>
+    </div>
+    <div class="buttonImages">
+        <img src="assets/images/circle.png" class = "circle">
+        <img src="assets/images/xbutton.png" class ="x">
+        <img src="assets/images/square.png" class ="square">
+        <img src="assets/images/triangle.png" class ="triangle">
+    </div>
 
-        </p>
-            </div>
-        <div id=#totalScore>
-
-            <p>Your Total Score Is: <span id = "totScore" >0</span></p>
-
+    <div class="totals">
+    <h1 class="display-5">Wins: <span id = "wins"></span></h1> 
+    <h1 class="display-5">Losses: <span id = "losses"></span></h1>  
+    <h1 class="display-5">Total Score: <span id = "score"></span></h1>
+    <h1 class="display-5" id="tarNum">Target Number: <span id = "targetNum"></span></h1>
         </div>
 
-<script src = "./assets/javascript/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+        crossorigin="anonymous"></script>
+
+    <script src="assets/javascript/game.js"></script>
 
 
 
